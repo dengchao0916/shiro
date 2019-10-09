@@ -31,7 +31,7 @@ public class CustomRealm extends AuthorizingRealm {
     }
 
     /**
-     * 授权
+     * 授权 赋予主体权限
      */
     @Override
     protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principals) {
@@ -48,7 +48,7 @@ public class CustomRealm extends AuthorizingRealm {
     }
 
     /**
-     * 认证
+     * 认证 管理登录登出
      */
     @Override
     protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken token) throws AuthenticationException {

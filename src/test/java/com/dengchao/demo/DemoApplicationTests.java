@@ -21,6 +21,13 @@ public class DemoApplicationTests {
         realm.addAccount("dengchao","123","admin","user");
     }
 
+    /**
+    * @Description :
+    * 认证：创建SecurityManager->主体提交认证->SecurityManager认证->Authenticator认证->Realm验证
+    * 授权：创建SecurityManager->主体授权->SecurityManager授权->Authorizer授权->Realm获取角色权限数据
+    * @Author : dengchao
+    * @Create : 11:05 PM 2019/10/9
+    */
     @Test
     public void contextLoads() {
 

@@ -11,7 +11,7 @@ import java.io.Serializable;
 
 /**
  * @author : dengchao
- * @description :
+ * @description : shiro自己实现了一套session管理机制 不用借助web容器使用session
  * @create : 2019/7/14
  */
 public class CustomSessionManager extends DefaultWebSessionManager {
