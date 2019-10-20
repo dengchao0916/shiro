@@ -12,6 +12,7 @@ import java.io.Serializable;
 /**
  * @author : dengchao
  * @description : shiro自己实现了一套session管理机制 不用借助web容器使用session
+ *                通过自己实现session管理，将session放进request中，减少从redis中读取的次数
  * @create : 2019/7/14
  */
 public class CustomSessionManager extends DefaultWebSessionManager {
